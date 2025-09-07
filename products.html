@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>جدول المنتجات</title>
+  <style>
+    /* تنسيق الجدول  */
+    table {
+      width: 70%;
+      margin: 20px auto; /* يخلي الجدول في النص */
+      border-collapse: collapse; /* يشيل الفراغات بين الحدود */
+    }
+    caption {  /*  العنوان الي فوق الجدول */
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #564034;
+        }
+th, td {
+      border: 1px solid #d6bfa8;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f8dede; /* رأس الجدول */
+    }
+
+    /*ألوان الصفوف */
+    tr:nth-child(even) {
+      background-color: #fdf6f0; /* بيج */
+    }
+
+    tr:nth-child(odd) {
+      background-color: #fbeae7; /* وردي فاتح */
+    }
+
+    img {
+      width: 100px;
+      height: auto;
+    }
+
+    
+    button {
+      background-color: #e6b8b8;
+      border: none;
+      padding: 8px 15px;
+      cursor: pointer; /*  يصير على شكل يد عندما اضع الماوس  */
+      border-radius: 5px; /*  تكون الزوايا دائرية شوي */
+    }
+
+    button:hover {
+      background-color: #d99c9c; /*  يكون لونه غامق لما امر من عنده */
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption> قائمة منتجات هدى بيوتي</caption>
+    <tr>
+      <th>اسم المنتج</th>
+      <th>السعر</th>
+      <th>الصورة</th>
+      <th>شراء</th>
+    </tr>
+    <tr>
+      <td>كريم اساس</td>
+      <td>218 ريال</td>
+      <td><img src="img7.jpeg" alt="صورة كريم اساس"></td>
+      <td><button type="button">شراء</button></td>
+    </tr>
+    <tr>
+      <td>ايشادو</td>
+      <td>152 ريال</td>
+      <td><img src="img8.jpeg" alt="صورة ايشادو"></td>
+      <td><button type="button">شراء</button></td>
+    </tr>
+    <tr>
+      <td>برايمر</td>
+      <td>74 ريال</td>
+      <td><img src="img9.jpeg" alt="صورة كونتور"></td>
+      <td><button type="button">شراء</button></td>
+    </tr>
+    <tr>
+      <td>بلاشر</td>
+      <td>124 ريال</td>
+      <td><img src="img10.jpeg" alt="صورة بلاشر"></td>
+      <td><button type="button">شراء</button></td>
+    </tr>
+    <tr>
+      <td>ماسكرا</td>
+      <td>150 ريال</td>
+      <td><img src="img11.jpeg" alt="صورة مسكره"></td>
+      <td><button type="button">شراء</button></td>
+    </tr>
+    <tr>
+      <td> قلوس شفاه</td>
+      <td>129 ريال</td>
+      <td><img src="img12.jpeg" alt="صورة روج"></td>
+      <td><button type="button">شراء</button></td>
+    </tr>
+  </table>
+
+</body>
+</html>
