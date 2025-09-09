@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>تسجيل الدخول</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+     header {
+       background-color: #bf63776f;
+        color: #432b1d;
+         text-align:center;
+           padding: 1px 50px;
+            justify-content:space-between;
+             display:flex;
+             box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+     img {
+      width: 100px;
+       height: auto;
+        border-radius: 8px; 
+         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+main {
+    padding: 100px;
+      margin: 88;
+     
+}
+ h2 { 
+  text-align: center;
+ font-size:250%;
+  color: #432b1d;
+
+ }
+  form {
+   background-color:#bf63776f;
+    width: 300px;
+     margin: 40px auto;
+      padding: 20px;
+       border-radius: 8px;
+        border: 1px solid #d6bfa8;
+         text-align: center;
+          box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+input[type="text"] {
+  width: 90%;
+    padding: 10px;
+     margin: 10px 0;
+      border: 1px solid #d6bfa8;
+       border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+input[type="password"] {
+  width: 90%;
+    padding: 10px;
+     margin: 10px 0;
+      border: 1px solid #d6bfa8;
+       border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+     }
+ button {
+       background-color: #e0cfd5;
+        border: none;
+          padding: 10px 20px;
+           border-radius: 5px;
+             cursor: pointer;
+                font-size: 20px;
+              box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+ button:hover {
+      background-color: #d99c9c;
+       transform: scale(1.05);  /* هنا يكبر الزر لما امر من عنده*/
+    }
+ footer {
+       background-color: #bf63776f;
+        color: #ffffff;
+         text-align: center;
+           padding: 15px;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ميكب هدى بيوتي</h1>
+     <img src="img13.jpeg" alt=" هدى بيوتي">
+  </header>
+
+  <main>
+    <h2>تسجيل الدخول</h2>
+   <section>
+      <form>
+        <label for="username">اسم المستخدم:</label><br>
+         <input type="text" id="username" required><br>
+          <label for="password">كلمة المرور:</label><br>
+           <input type="password" id="password" required><br><br>
+            <button type="submit">دخول</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>©2024 Huda Beauty, All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
