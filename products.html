@@ -3,24 +3,25 @@
 <head>
   <meta charset="UTF-8">
    <title>جدول المنتجات</title>
+   <link rel="icon" href="img13.jpeg" type="image/jpeg">
   <style>
 
      body {
-      margin: 0;
-       padding: 0;
+      margin:0;
+       padding:0;
+        background-color: #ffe0ee91;
      }
     table {
      width: 70%;
       margin: 20px auto; /* يخلي الجدول في النص */
        border-collapse: collapse; /* يشيل الفراغات بين الحدود */
-        border-radius: 8px; 
-         box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل بسيط للجدول */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ظل بسيط للجدول */
            
     }
     caption {  /*  العنوان الي فوق الجدول */
      font-size: 40px;
       font-weight: bold;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
          color: #564034;
         }
  th, td {
@@ -28,19 +29,16 @@
       padding: 12px;
        text-align: center;
         font-size: 150%;
-    }
-
+    } 
     th {
       background-color: #f8dede; /* رأس الجدول */
-    }
-
+     }
     /*ألوان الصفوف */
     tr:nth-child(even) {
       background-color: #fdf6f0; 
     }
-
-    tr:nth-child(odd) {
-      background-color: #fbeae7; 
+       tr:nth-child(odd) {
+        background-color: #fbeae7; 
     }
  tr:hover {
       background-color: #f3dede;
@@ -74,8 +72,29 @@
          align-items: center;
          justify-content: space-between;
          color: #50382b;
-          box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-   }
+         
+         
+   }  
+ nav {
+      background-color: #b33c566f;
+      padding: 15px;
+      text-align: center;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      
+    }
+
+ nav a {
+    color: #432b1d;
+    text-decoration: none;
+      margin: 0 30px;
+    font-weight: bold;
+      font-size: 18px;
+    }
+
+   nav a:hover {
+      color: #d99c9c;
+    }
+
     
  aside {
   width: 15%;
@@ -88,7 +107,9 @@
           color: #432b1d;
            border-radius: 8px;
         box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-    }
+    } 
+
+
    footer {
   background-color:#bf63776f;
    padding: 10px;
@@ -103,6 +124,12 @@
       <h1>ميكب هدى بيوتي</h1>
     <img src="img13.jpeg" alt=" هدى بيوتي">
   </header>
+   <nav>
+    <a href="home.html">الرئيسية</a>
+     <a href="products.html">المنتجات</a>
+      <a href="login.html">تسجيل الدخول</a>
+       <a href="communication.html"> تواصل معنا</a>
+  </nav>
   <main>
       <aside>
          <h1>منتجات هدى بيوتي</h1>
@@ -124,18 +151,18 @@
     <caption> قائمة منتجات هدى بيوتي</caption>
     <thead>
       <tr>
-        <th>اسم المنتج</th>
+       <th>اسم المنتج</th>
         <th>السعر</th>
-        <th>الصورة</th>
-        <th>شراء</th>
+         <th>الصورة</th>
+          <th>شراء</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>كريم اساس</td>
-        <td>218 ريال</td>
-        <td><img src="img7.jpeg" alt="صورة كريم اساس"></td>
-        <td><button type="button">شراء</button></td>
+         <td>218 ريال</td>
+          <td><img src="img7.jpeg" alt="صورة كريم اساس"></td>
+           <td><button type="button">شراء</button></td>
       </tr>
       <tr>
        <td>ايشادو</td>

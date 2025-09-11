@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>إنشاء حساب</title>
+    <link rel="icon" href="img13.jpeg" type="image/jpeg">
+  <style>
+    body {
+      margin: 0;
+       padding: 0;
+        background-color: #ffe0ee91;
+    }
+
+     header {
+       background-color: #bf63776f;
+        color: #432b1d;
+         text-align:center;
+           padding: 1px 50px;
+            justify-content:space-between;
+             display:flex;
+            
+    }
+     img {
+      width: 100px;
+       height: auto;
+        border-radius: 8px; 
+         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+main {
+    padding: 100px;
+      margin:10px;
+     
+}
+ h2 { 
+  text-align: center;
+ font-size:250%;
+  color: #432b1d;
+
+ }
+  nav {
+      background-color: #b33c566f;
+      padding: 10px;
+      text-align: center;
+       box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+
+ nav a {
+    color: #432b1d;
+    text-decoration: none;
+      margin: 0 15px;
+    font-weight: bold;
+      font-size: 18px;
+    }
+
+   nav a:hover {
+      color: #d99c9c;
+    }
+
+  form {
+   background-color:#bf63776f;
+    width:30%;
+    margin: 40px auto;
+      padding: 20px;
+       border-radius: 8px;
+        border: 1px solid #d6bfa8;
+         text-align: center;
+          box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+         
+    }
+    
+input[type="text"] {
+  width: 90%;
+    padding: 10px;
+     margin: 10px 0;
+      border: 1px solid #d6bfa8;
+       border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+input[type="password"] {
+  width: 90%;
+    padding: 10px;
+     margin: 10px 0;
+      border: 1px solid #d6bfa8;
+       border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+     }
+ button {
+       background-color: #e0cfd5;
+        border: none;
+          padding: 10px 20px;
+           border-radius: 5px;
+             cursor: pointer;
+                font-size: 20px;
+              box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+ button:hover {
+      background-color: #d99c9c;
+       transform: scale(1.05);  /* هنا يكبر الزر لما امر من عنده*/
+    }
+ footer {
+       background-color: #bf63776f;
+        color: #ffffff;
+         text-align: center;
+           padding: 15px;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ميكب هدى بيوتي</h1>
+    
+     <img src="img13.jpeg" alt=" هدى بيوتي">
+  </header>
+ <nav>
+    <a href="home.html">الرئيسية</a>
+     <a href="products.html">المنتجات</a>
+      <a href="login.html">تسجيل الدخول</a>
+       <a href="communication.html"> تواصل معنا</a>
+  </nav>
+  <main>
+    <h2>إنشاء حساب</h2>
+    
+      <form>
+        <label for="username">اسم المستخدم:</label><br>
+         <input type="text" id="username" placeholder="اكتب اسم المستخدم هنا..." required><br>
+          <label for=" password">كلمة المرور:</label><br>
+           <input type="password" id="password" placeholder="اكتب كلمة المرور هنا..." required><br><br>
+          <label for="Confirm password">تأكيد كلمة المرور</label><br>
+           <input type="password" id="Confirm password" placeholder="اكتب كلمة المرور هنا..." required><br><br>
+            <button type="submit">دخول</button>
+            <p>سجل دخولك هنا <a href="login.html"> login </a></p>
+     </form>
+  </main>
+
+  <footer>
+    <p>©2024 Huda Beauty, All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
